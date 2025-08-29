@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Employe">
+        <form action="#">
+            <div class="Search-drop"><input id="Searchemp" placeholder="Search for Employee" type="text">
+                <select class="drop-down" name="" id="dropdownmenu">
+                </select>
+            </div>
+            <h1 style="background-color: blue; padding: 20px; border-radius: 0 0 20px 20px ;">Employe details</h1>
+            <div class="inputcontent">
+                <label>NAME</label>
+                <input id="name" required placeholder="Name" type="text">
+
+                <label>JOB</label>
+                <input id="job" required placeholder="Job" type="text">
+
+                <label>SALARY</label>
+                <input id="salary" required placeholder="salary" type="number">
+            </div>
+
+            <button class="savebtn" id="btn">Save</button>
+        </form>
+
+        <table id="tabledetails" class="table-details">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Salary</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>

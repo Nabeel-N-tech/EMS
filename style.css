@@ -1,0 +1,133 @@
+body{
+    min-height: 100vh;
+}
+
+.Employe{
+
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.Employe h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: burlywood;
+    text-shadow: 2px 2px 2px black;
+}
+
+.Employe form{
+    padding: 20px;
+}
+.inputcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 20px;
+}
+input{
+    padding: 10px;
+    border: 0px solid white;
+    border-radius: 10px;
+
+}
+
+.savebtn{
+    margin-left: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: 2px solid white;
+
+}
+
+.savebtn:hover{
+    margin-left: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 11px;
+    background-color: green;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px darkseagreen;
+
+}
+
+.editbtn{
+    background-color: white;
+    padding: 5px;
+    border: 0 solid;
+    border-radius: 7px;
+}
+
+.editbtn:hover{
+    background-color: rgb(218, 134, 16);
+    padding: 5px;
+    border: 0 solid;
+    border-radius: 7px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.deletebtn{
+     background-color: white;
+    padding: 5px;
+    border: 0 solid;
+    border-radius: 7px;
+}
+
+.deletebtn:hover{
+     background-color: red;
+    padding: 5px;
+    border: 0 solid;
+    border-radius: 7px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+
+}
+.table-details {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 10px rgba(186, 31, 31, 0.1);
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.table-details th {
+    background-color: antiquewhite;
+    color: darkblue;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px white;
+
+}
+
+.table-details td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.Search-drop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop-down{
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
