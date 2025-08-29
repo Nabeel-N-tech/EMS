@@ -33,6 +33,7 @@ let filtered = [...details]
     details.push(obj);
     }
     updateStorage()
+    Dropdown()
     clearfields()
     rendertable()
     
@@ -146,7 +147,6 @@ dropdown.addEventListener('change', () => {
         filtered = details.filter(emp => emp.job === selected);
     }
     rendertable();
-    updateStorage()
 });
 
 Dropdown();
