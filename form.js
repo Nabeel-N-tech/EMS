@@ -92,7 +92,7 @@ function setedit(id){
     nameem.value = emp.name
     job.value = emp.job
     salary.value = emp.salary
-
+    updateStorage()
 }
 
 function updateemp(id){
@@ -113,7 +113,7 @@ function updateemp(id){
 
 function updateStorage(){
     localStorage.setItem('details',JSON.stringify(details));
-    let filtered = [...details]
+    filtered = [...details]
 }
 
 function searchemp(q){
