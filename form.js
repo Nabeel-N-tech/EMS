@@ -146,6 +146,7 @@ dropdown.addEventListener('change', () => {
         filtered = details.filter(emp => emp.job === selected);
     }
     rendertable();
+    updateStorage()
 });
 
 Dropdown();
